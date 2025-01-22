@@ -15,6 +15,7 @@ export default {
       edit: '編輯',
       upload: '上傳',
       english: '英語',
+      portugueseBr: '葡萄牙語 (巴西)',
       chinese: '簡體中文',
       traditionalChinese: '繁體中文',
       language: '語言',
@@ -249,14 +250,14 @@ export default {
       此塊方法支持<b> excel </b>和<b> csv/txt </b>文件格式。
     </p>
     <li>
-      如果文件以<b> excel </b>格式，則應由兩個列組成
+      如果文件是<b> excel </b>格式，則應由兩個列組成
       沒有標題：一個提出問題，另一個用於答案，
       答案列之前的問題列。多張紙是
       只要列正確結構，就可以接受。
     </li>
     <li>
-      如果文件以<b> csv/txt </b>格式為
-      用作分開問題和答案的定界符。
+      如果文件是<b> csv/txt </b>格式
+      以 UTF-8 編碼且用 TAB 作分開問題和答案的定界符。
     </li>
     <p>
       <i>
